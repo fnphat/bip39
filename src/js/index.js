@@ -227,7 +227,7 @@
         var errorText = findPhraseErrors(phrase);
         if (errorText) {
             showValidationError(errorText);
-            return;
+            //return;
         }
         // Calculate and display
         var passphrase = DOM.passphrase.val();
